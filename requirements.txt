@@ -4,3 +4,4 @@ schedule
 requests
 holidays
 nsepython
+openpyxl
