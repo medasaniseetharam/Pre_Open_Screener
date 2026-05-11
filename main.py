@@ -528,17 +528,17 @@ def run_scanner():
         # STEP 6
         # EXPORT TO EXCEL
 
-        filename = (
-            f"PreOpen_Momentum_"
-            f"{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.xlsx"
-        )
+        # filename = (
+        #    f"PreOpen_Momentum_"
+        #    f"{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.xlsx"
+       # )
 
-        final_df.to_excel(
-            filename,
-            index=False
-        )
+       # final_df.to_excel(
+       #     filename,
+         #   index=False
+       # )
 
-        print("\nExcel Saved:", filename)
+        # print("\nExcel Saved:", filename)
 
         # STEP 7
         # TELEGRAM ALERT
@@ -569,7 +569,7 @@ def run_scanner():
 # ==========================================
 
 
-#run_scanner()
+# run_scanner()
 
 # ==========================================
 # DAILY AUTOMATION
